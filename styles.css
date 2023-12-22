@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5;
+}
+header>h1{
+	color: white;
+	background-color: #011e29;
+	text-align: center;
+	padding: 20px;
+}
+section{
+	display: flex;
+}
+.latest-news-section{
+	background-color: white;
+	padding: 20px;
+	width: 20%;
+	border-radius: 10px;
+	margin: 10px;
+}
+.main-article{
+	background-color: white;
+	padding: 20px;
+	width: 60%;
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px;
+}
+.pictorial-news-section{
+	background-color: white;
+	padding: 20px;
+	width: 20%;
+	border-radius: 10px;
+	margin: 10px;
+}
+img{
+	width: 100px;
+}
