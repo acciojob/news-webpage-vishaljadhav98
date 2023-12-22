@@ -2,7 +2,7 @@
 body{
 	background-color: #f5f5f5;
 }
-header>h1{
+.header{
 	color: white;
 	background-color: #011e29;
 	text-align: center;
@@ -11,14 +11,14 @@ header>h1{
 section{
 	display: flex;
 }
-.latest-news-section{
+div.latest-news-section{
 	background-color: white;
 	padding: 20px;
 	width: 20%;
 	border-radius: 10px;
 	margin: 10px;
 }
-.main-article{
+div.main-article{
 	background-color: white;
 	padding: 20px;
 	width: 60%;
@@ -26,10 +26,11 @@ section{
 	border-radius: 10px;
 	margin: 10px;
 }
-.pictorial-news-section{
+div.pictorial-news-section{
 	background-color: white;
 	padding: 20px;
 	width: 20%;
+	text-align: center;
 	border-radius: 10px;
 	margin: 10px;
 }
